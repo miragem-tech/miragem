@@ -1,0 +1,60 @@
+.Navbar {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-items {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 36px;
+}
+
+.lightmode, .labs, .login, .logo {
+    cursor: pointer;
+}
+
+.labs {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+@keyframes glowing {
+    0% {
+      filter: drop-shadow(0 0 5px #FF4655);
+    }
+    50% {
+      filter: drop-shadow(0 0 20px #FF4655);
+    }
+    100% {
+      filter: drop-shadow(0 0 5px #FF4655);
+    }
+}
+
+@keyframes whiteglowing {
+    0% {
+      filter: drop-shadow(0 0 3px #FFFFFF);
+    }
+    50% {
+      filter: drop-shadow(0 0 16px #FFFFFF);
+    }
+    100% {
+      filter: drop-shadow(0 0 3px #FFFFFF);
+    }
+}
+
+.lightmode:hover, .labs:hover, .login:hover {
+    animation: whiteglowing 2s infinite;
+}
+
+.logo:hover {
+    animation: glowing 2s infinite;
+}
+
