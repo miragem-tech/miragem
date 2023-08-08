@@ -21,7 +21,10 @@ function HomeContent() {
           <button className="get-started">Começar -&gt;</button>
         </a>
         <button className="github">
-          <img src="https://raw.githubusercontent.com/miragem-tech/assets/f99cd9f5ad73f6ab29cf26088d1e4b5ccc90fa56/github.svg" />
+          <img
+            src="https://raw.githubusercontent.com/miragem-tech/assets/f99cd9f5ad73f6ab29cf26088d1e4b5ccc90fa56/github.svg"
+            className="github-logo"
+          />
           <p className="github-name">Github</p>
         </button>
       </div>
