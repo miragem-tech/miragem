@@ -109,3 +109,15 @@
         height: 24px;
     }
 }
+
+@media only screen and (max-width: 280px) {
+  .slogan {
+    width: 267px;
+    font-size: 24px;
+  }
+
+  .description {
+    width: 243px;
+    font-size: 12px;
+  }
+}

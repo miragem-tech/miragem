@@ -58,3 +58,16 @@
     animation: glowing 2s infinite;
 }
 
+@media only screen and (max-width: 414px) {
+  .logo {
+    width: 33px;
+    height: 36px;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .logo {
+    width: 28px;
+    height: 30px;
+  }
+}
